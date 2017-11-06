@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UI Challenge - Custom Form Elements</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>UI Challenge - Custom Form Elements</h1>
+    <form>
+      <label>text input</label>
+      <input type="text" placeholder="placeholder text">
+      <label>text input w/ validation error</label>
+      <input type="text" placeholder="placeholder text" required pattern="[^.]/gi">
+      <label>select box</label>
+      <select>
+        <option value="" selected disabled>please select an option...</option>
+        <option value="option 1">option 1</option>
+        <option value="option 2">option 2</option>
+        <option value="option 3">option 3</option>
+        <option value="option 4">option 4</option>
+        <option value="option 5">option 5</option>
+      </select>
+      <label>checkbox</label>
+      <input type="checkbox" class="check">
+      <input type="checkbox" class="check">
+      <label>radio</label>
+      <input type="radio" name="radio" class="rad">
+      <input type="radio" name="radio" class="rad">
+      <label>buttons</label>
+      <button>submit</button>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
